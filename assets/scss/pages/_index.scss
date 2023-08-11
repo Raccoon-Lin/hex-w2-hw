@@ -1,0 +1,242 @@
+* {
+  outline: 1px solid orange;
+  line-height: 1.5;
+  text-decoration: none;
+  font-family: 'Bruno Ace SC', cursive;
+  box-sizing: border-box;
+}
+
+
+// 共同顏色設定
+.bg-primary {
+  background: $primary;
+}
+
+.text-primary {
+  color: $primary;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.text-info {
+  color: $info;
+}
+
+.bg-liner{
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+
+// 共同間距設定
+.container {
+  max-width: 1296px;
+  margin: 0px auto;
+  padding:0px 16px;
+}
+
+.maxwidth-541{
+  min-width: 541px;
+}
+
+//padding
+.p-s {
+  padding: 16px;
+}
+
+.ptb-s {
+  padding: 40px 0px;
+}
+
+.ptb-m {
+  padding: 72px 0px;
+}
+
+.ptb-xl {
+  padding: 96px 0px;
+}
+
+.ptb-l {
+  padding: 160px 0px;
+}
+
+.ptb-129 {
+  padding: 129px 0px;
+}
+
+
+//margin
+
+.m-33{
+  margin: 33px 0px;
+}
+
+.mb-s {
+  margin-bottom: 4px;
+}
+
+.mb-m {
+  margin-bottom: 8px;
+}
+
+.mb-l {
+  margin-bottom: 16px;
+}
+
+.mb-xl {
+  margin-bottom: 24px;
+}
+
+.mb-xxl {
+  margin-bottom: 36px;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.me-s {
+  margin-right: 24px;
+}
+
+.me-l {
+  margin-right: 134px;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+//flex
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-s {
+  justify-content: space-between;
+}
+
+
+.ai-c {
+  align-items: center;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+//寬度比例
+.w-50 {
+  width: 50%;
+}
+
+.w-100px{
+  width:100px;
+}
+
+.w-100{
+  width:100%;
+}
+
+.width-746{
+  width:746px;
+}
+
+//文字尺寸
+.fz-s {
+  font-size: 16px;
+}
+
+.fz-m {
+  font-size: 20px;
+}
+
+.fz-l {
+  font-size: 24px;
+}
+
+
+.fz-xl {
+  font-size: 64px;
+}
+
+.fz-xxl {
+  font-size: 128px;
+}
+
+//gap
+.gap-24 {
+  gap: 24px;
+}
+
+
+//flex-grow
+.flex-grow-1{
+  flex-grow: 1;
+}
+
+
+.card {
+  border: 1px solid #e3e3e3;
+  background-color: $info;
+  box-shadow: #e3e3e3;
+  padding: 16px;
+  flex-wrap: wrap;
+  width: 44.2%;
+}
+
+.about-me {
+  width: 526px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.vertical-align-middle{
+  vertical-align: middle;
+}
+
+.button-w{
+  width: 185px;
+  background-color: $info;
+  border-radius: 32px;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    p{
+      margin-right: 4px;
+    }
+}
+
+.button-b{
+  width: 185px;
+  color: $info;
+  background-color: $primary;
+  border-radius: 32px;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    p{
+      margin-right: 4px;
+    }
+}
+
+
+.my-projects{
+  max-width: 856px;
+}
